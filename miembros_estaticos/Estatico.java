@@ -40,18 +40,19 @@ public class Estatico {
         /**
          * Creamos dos diferentes objetos de clase Estatico
          */
-        Estatico objectOne = new Estatico();
-        Estatico objectTwo = new Estatico();
+        //Estatico objectOne = new Estatico();
+        //Estatico objectTwo = new Estatico();
 
         /**
          * Se le cambia el valor del atributo estático a uno de los objetos, pero como
          * el atributo no es propio del objeto sino de la clase, el valor cambia para
          * todos los objetos.
          */
-        objectTwo.sentence = "Hello Brithanny";
+
+        /*objectTwo.sentence = "Hello Brithanny";
 
         System.out.println(objectOne.sentence);
-        System.out.println(objectTwo.sentence);
+        System.out.println(objectTwo.sentence);*/
 
         /**
          * También podemos acceder al atributo, sin necesitad de un objeto, ya que este
